@@ -1,5 +1,6 @@
 import 'dart:ui';
 
+import 'package:example/dev_trade.dart';
 import 'package:flutter/material.dart';
 
 import 'demos/basic.dart';
@@ -26,6 +27,7 @@ final routes = {
   '/demo/live_update': (context) => const DemoLiveUpdatePage(),
   '/demo/group': (context) => const DemoGraphGroupPage(),
   '/demo/markers': (context) => const DemoMarkersPage(),
+  '/demo/devtrade': (context) => const DevTradePage(),
 };
 
 class CustomScrollBehavior extends MaterialScrollBehavior {
